@@ -1,70 +1,139 @@
-﻿body{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 1200px;
-    margin: auto;
-}
-
-h1{
+﻿*{
+    margin : 0;
+    padding : 0;
+  }
+  
+  body {
+    font : 11pt georgia,sans-serif;
+    line-height: 120%;
+    color : #555753;
+  }
+  
+  .container {
+    width : 80%;
+    margin: 0 auto;
+  }
+  
+  
+  
+  footer{
+    background-color: gray;
+    padding : 10px;
     text-align: center;
+    color : white;
+  }
+  /* Toevoegen van classes om elementen te laten floaten */
+  .floatright{
+    float: right;
+  }
+  
+  .floatleft{
+    float : left;
+  }
+  
+  .clearfloat{
+    clear: both;
+  }
+  
+  header h1{
+    font : bold 26pt georgia,sans-serif;
+    letter-spacing: 1px;
     font-variant: small-caps;
-    color: olive;
-}
-
-nav{
-    background-color: orange;
-    padding: 7px;
+    color : #7D775C;
     text-align: center;
-    width: 72%;
-    display: inline-block;
-}
-
-nav a{
-    text-decoration: none;
-    color: yellow;
-}
-
-aside{
-    background-color: lightgray;
-    float: right;
-    width: 22%;
-    border-left: 1px solid black;
-    padding: 10px;
-}
-
-aside img{
-    border: 1px solid black;
-    border-radius: 5px;
-    margin-left: 35px;
-    box-shadow: 5px 5px 5px grey;
-}
-
-article{
-    margin: 10px;
+    margin-bottom: 20px;	
+  }
+  
+  article{
+    background-color: aliceblue;
     border: 1px solid green;
-    border-radius: 5px;
-    width: 68%;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: rgba(152, 214, 255, 0.1);
-}
-
-figure{
-
-}
-
-span{
-    font-size: 2em;
-}
-
-.linksFoto{
-    float: left;
-    margin-right: 15px;
-    border: 2px solid black;
-}
-
-.rechtsFoto{
-    float: right;
-    margin-left: 15px;
-    border: 2px solid black;
-    margin-top: 15px;
-}
+    margin: 10px;
+    padding : 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+  }
+  
+  article img{
+    margin : 10px;
+    border : 2px solid black;
+  }
+  
+  h2{
+    padding : 10px;
+    font-style: italic;
+    font-size:  18pt;
+    font-weight: normal;
+    color : #7D775C;
+  }
+  
+  nav{
+    padding : 10px;
+    background-color: orange;
+    text-align: center;
+    overflow: hidden;
+   
+    
+  }
+  
+  nav a{
+    color : yellow;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  
+  nav a:hover{
+    color : white;
+    letter-spacing: 2px;
+  }
+  aside{
+    float : right;
+    width : 250px;
+    border-left : solid 1px;
+    margin : 0 10px;
+    padding : 5px; 
+    background-color: lightgray;     
+  }
+  aside ::first-letter{
+    font-size: 30pt;
+  }
+  
+  p{
+    padding : 10px;
+  }
+  
+  aside img{
+    
+    display: block;
+    border-radius: 10px;
+    border : 1px solid gray;
+    margin : 10px auto;
+    box-shadow: 5px 5px 3px grey;
+  }
+  
+  .fotocontainer{
+    width: 90%;
+    margin : 0 auto;  
+   
+  }
+  figure div{ 
+    display: inline-block;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    margin : 5px;
+  
+  }
+  
+  figure{  
+    display: inline-block; 
+   vertical-align: top; 
+    border : 2px solid white;
+    background-color: beige;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin : 10px;
+   
+  }
+  
+  
+  
